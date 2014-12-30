@@ -251,10 +251,10 @@ void DllInjector::get_process() {
  * this injector. Using Visual Studio 2013, this code has been tested both against
  * 32bit and 64bit Windows 7. 
  *
- * I have not tested this code much beyond running code from my own library. If I 
- * want to do code injection, I would probably use one the existing frameworks that 
- * have received far more development time and are far wider in scope. I have written 
- * this code to learn from it.
+ * I have not tested this code much beyond running code from my own library against
+ * small applications like notepad. If I want to do code injection, I would probably 
+ * use one of the existing frameworks that have received far more development time 
+ * and are far wider in scope. I have written this code to learn from it.
  *
  * Proper error handling is lacking at this point. If you would like to investigate
  * issues with this code, set breakpoints in the get_procedure and call_procedure
