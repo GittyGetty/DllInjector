@@ -105,13 +105,7 @@ int Functor1Arg<T>::operator()(T argument, size_t size) {
  * I have also tried to provide a clean interface that only requires the
  * minimum input possible. The interface should encourage the use of C++
  * concepts and hide any details that depend on the exact underlying
- * mechanics of the invocation. Many tutorials and examples I have come across
- * for this kind of functionality, especially the ones on sites dedicated
- * to "game hacking", seemed very intransparent to me, with many hardcoded
- * constants, little context for their semantics, badly well-written
- * documentation lacking basic sentence structure, and sometimes contradictory
- * or incorrect explanations. I do not mean to be critical, but I felt there
- * was a gap to fill.
+ * mechanics of the invocation. This code uses C++11 features.
  *
  * Issues:
  * - Error handling is mostly absent.
